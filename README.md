@@ -1,4 +1,4 @@
-# Laravel API Demo
+# Laravel Simple API
 
 ## Setup
 
@@ -19,4 +19,5 @@ To test the API, you can use tools like Postman or CURL to send a POST request t
 }
 ```
 Run queue worker to save data to the database:
+
 `php artisan queue:work`
