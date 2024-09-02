@@ -2,6 +2,6 @@
 
 use App\Http\Controllers\SubmissionController;
 
-Route::get('/submit', [SubmissionController::class, 'store']);
+Route::post('/submit', [SubmissionController::class, 'store']);
 
 
