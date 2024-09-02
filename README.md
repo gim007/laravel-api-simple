@@ -17,3 +17,6 @@ To test the API, you can use tools like Postman or CURL to send a POST request t
     "email": "john.doe@example.com",
     "message": "This is a test message."
 }
+```
+Run queue worker to save data to the database:
+`php artisan queue:work`
