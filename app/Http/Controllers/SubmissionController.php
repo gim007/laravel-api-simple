@@ -26,6 +26,6 @@ class SubmissionController
         // Dispatch job
         ProcessSubmission::dispatch($data);
 
-        return response()->json(['message' => 'Submission received and is being processed.'], 202);
+        return response()->json(['message' => 'Submission received and is being processed.'], 200);
     }
 }

@@ -17,7 +17,7 @@ class SubmissionTest extends TestCase
             'message' => 'This is a test message.',
         ]);
 
-        $response->assertStatus(202);
+        $response->assertStatus(200);
         $response->assertJson(['message' => 'Submission received and is being processed.']);
     }
 }
