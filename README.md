@@ -18,6 +18,16 @@ To test the API, you can use tools like Postman or CURL to send a POST request t
     "message": "This is a test message."
 }
 ```
+CURL example:
+
+`curl -X POST http://localhost/api/submit -H "Content-Type: application/json" -d '{"name": "John Doe", "email": "john.doe@example.com", "message": "This is a test message."}'`
+
+
 Run queue worker to save data to the database:
 
 `php artisan queue:work`
+
+
+Also, Unit test:
+
+`php artisan test`
